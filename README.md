@@ -2,8 +2,7 @@
 
 Here we have two apps
 ## 1. Front end
-Front end is a basic Svelte app. It is just to demonstrate client side implementation of Socket.io.
-This can send message, and depending on the focus state of the input, it emits events to let server know and broadcast if a user is typing or not.
+The front-end is a basic Svelte app. It is just to demonstrate the client-side implementation of Socket.io. This can send the message, and depending on the focus state of the input, it emits events to let the server know and broadcast if a user is typing or not.
 
 ![alt The front end UI](./chat-client/screenshots/screenshot1.png)
 
