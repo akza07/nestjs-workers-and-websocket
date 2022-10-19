@@ -121,7 +121,7 @@ The CPU intensive task is... it's a demo so...
   }
 ```
 
-Wish you good luck. I made this simply for learning purposes where I can learn 3 things at once.
+Wish you good luck. I made this simply for learning purposes so I can learn 3 things at once.
 1. WebSockets in NestJs
 2. Workers in NestJs
 3. Markdown Syntax to write this `README.md` file. [( I learned using this )](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
