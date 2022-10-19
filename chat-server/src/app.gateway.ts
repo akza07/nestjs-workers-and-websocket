@@ -18,6 +18,7 @@ export class AppGateway implements OnGatewayConnection, OnGatewayDisconnect {
   async handleConnection(client: any, ...args: any[]) {
     Logger.verbose('Client connected', 'Client');
     Logger.verbose('Client Socket ID :' + client.id, 'Client');
+    this.server.sockets.emit('event.recieved', `${client.id} just connected`);
   }
   async handleDisconnect(client: any) {
     Logger.verbose('Client disconnected', 'Client');
