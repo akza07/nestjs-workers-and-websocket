@@ -2,7 +2,7 @@
 
 Here we have two apps
 ## 1. Front end
-The front-end is a basic Svelte app. It is just to demonstrate the client-side implementation of Socket.io. This can send the message, and depending on the focus state of the input, it emits events to let the server know and broadcast if a user is typing or not.
+The front-end is a basic Svelte app. It is to demonstrate the client-side implementation of Socket.io. This can send the message, and depending on the focus state of the input, it emits events to let the server know and broadcast if a user is typing or not.
 
 ![alt The front end UI](./chat-client/screenshots/screenshot1.png)
 
@@ -29,7 +29,7 @@ npm run start:dev ## for development
 
 For socket implementation, nestjs provides decorators. Refer the [gateway documentation](https://docs.nestjs.com/websockets/gateways)
 
- ( I hope you know basics of how to make a basic Nodejs socket app because I'm not teaching you socket.io, WebSockets or events )
+ Please make sure you know some basics of socket.io, webSockets before you proceed.
 
 ```typescript
 @WebSocketGateway()
