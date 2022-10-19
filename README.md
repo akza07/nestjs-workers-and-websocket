@@ -5,6 +5,8 @@ Here we have two apps
 Front end is a basic Svelte app. It is just to demonstrate client side implementation of Socket.io.
 This can send message, and depending on the focus state of the input, it emits events to let server know and broadcast if a user is typing or not.
 
+![alt The front end UI](./chat-client/screenshots/screenshot1.png)
+
 To run the svelte app only
 ```bash
 cd chat-client
