@@ -66,7 +66,7 @@ Make sure to register your gateway as one of the provider for the module or it w
 
 ### Workers
 
-You usually don't need workers if all that's to be done is insert and updates of single column or other IO bound operations since nodejs is quite good with those type of events already. We need workers if we are doing some intensive tasks
+You usually don't need workers if all that's to be done is insert and updates of single column or other IO bound operations. Since NodeJs is quite good with those type of events by default. We need workers usually when we are doing some intensive CPU bound tasks and don't want our API to be too busy and reject or keep clients waiting.
 
 
 It has a sub-directory called workers in it. Which is just a [NestJs stand-alone application](https://docs.nestjs.com/standalone-applications) with `AppModule` as context. So it has access to all the repositories and resources that the entire Application has access to.
